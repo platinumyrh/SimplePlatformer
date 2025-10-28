@@ -1,26 +1,22 @@
-# Simple Platformer — Rewind & Wall Jump Demo
+# Simple Platformer
 
-一个使用 **Unity** 制作的简单 2D 平台跳跃游戏 Demo。  
-包含基础的移动、跳跃、蹬墙跳（Wall Jump）和时间回溯（Rewind）功能。  
-主要目的是练习玩家控制、物理检测与状态保存逻辑。
+A small 2D platformer demo built in Unity.  
+Features basic movement, wall-jumping (via raycast detection), and a simple time rewind mechanic.
 
----
+## 🎮 Features
+- 2D platformer controls (move, jump)
+- Wall jump using raycast detection
+- Time rewind system (record & restore player states)
 
-## 🎮 功能简介
-- **基础移动**：左右移动、跳跃、重力控制  
-- **蹬墙跳（Wall Jump）**：使用射线（Raycast）检测墙面实现  
-- **时间回溯（Rewind）**：通过记录玩家状态（位置、速度等）实现简单回溯效果  
+## 🧩 Tech Details
+- Built with Unity 2022.x
+- Written in C#
+- Custom scripts: `PlayerController`, `WallJump`, `RewindManager`
 
----
-
-## ⚙️ 技术实现
-- **射线检测**：在玩家左右发射射线检测是否贴近墙体  
-- **蹬墙跳逻辑**：检测到墙面时允许再次跳跃，并给予反向水平速度  
-- **时间回溯**：使用队列保存一定时间内的玩家状态，按键触发后反向恢复状态  
+## 🧠 Notes
+This is a small personal learning project made to practice Unity scripting and basic physics-based gameplay.
 
 ---
 
-## 🕹️ 操作方式
-- 移动：A / D 或 ← / →  
-- 跳跃：Space  
-- 时间回溯：按住 R  
+🕹️ *Author: [YourName]*  
+💡 *More projects coming soon!*
